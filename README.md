@@ -10,5 +10,9 @@ The game tournament will use the Swiss system for pairing up players in each rou
 
 2. Next run `vagrant up` then `vagrant ssh`
 
-3. In the VM, type `\i tournament.sql`
+3. Next change directory to the drive where these files are located and type `psql` 
+
+4. In the VM, type `\i tournament.sql`  to connect to the database and create the tables.
+
+5. Run the code by typing `python tournament.py` 
 
